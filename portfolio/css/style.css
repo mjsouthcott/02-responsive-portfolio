@@ -1,0 +1,126 @@
+@media (min-width: 640px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 980px) {}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrapper {
+    background-image: url("images/pattern.png");
+}
+
+header {
+    background-color: white;
+    height: 100px;
+    border-bottom: 2px solid lightgrey;
+}
+
+h1 {
+    background-color: lightseagreen;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    height: 98px;
+    width: 350px;
+    padding-top: 30px;
+    margin-left: 40px;
+    font-family: 'Merriweather';
+    font-weight: bold;
+}
+
+nav {
+    padding-top: 30px;
+    margin-right: 30px;
+}
+
+nav ul li {
+    border-left: 1px solid lightgrey;
+}
+
+nav ul li:first-of-type {
+    border-left: none;
+}
+
+a {
+    color: lightslategrey;
+}
+
+.container {
+    background-color: white;
+    margin: 30px 30px 400px 40px;
+    padding: 30px 0 0 0;
+    border: 1px solid lightgrey;
+}
+
+.col {
+    padding: 0px;
+}
+
+h2 {
+    font-size: 28px;
+    color: lightseagreen;
+    font-family: 'Merriweather';
+    font-weight: bold;
+}
+
+.row:first-child {
+    border-bottom: 2px solid lightgrey;
+    padding-bottom: 15px
+}
+
+.row {
+    margin: 0 30px 30px 30px;
+}
+
+p {
+    line-height: 1.8;
+    color: lightslategrey;
+}
+
+p:last-child {
+    margin-bottom: 0px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+footer {
+    background-color: grey;
+    border-top: 6px solid lightseagreen;
+    height: 100px;
+}
+
+h4 {
+    color: lightgrey;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.portfolio-image {
+    position: relative;
+}
+
+h3 {
+    position: absolute;
+    background-color: lightseagreen;
+    color: white;
+    font-family: 'Merriweather';
+    font-size: 22px;
+    bottom: 5px;
+    width: 300px;
+    text-align: center;
+    padding: 10px 0;
+}
